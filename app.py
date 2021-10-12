@@ -9,11 +9,10 @@ def home():
 
 @app.route('/', methods=['POST'])
 def form():
-   text = request.form['text']
-   url = text
-   print(text)
-   video = pafy.new(url)
-   return render_template('stats.txt', video=video)
+   url = request.form['text']
+   v = pafy.new(url)
+
+   return render_template('stats.txt', video=v, rating=round(v.rating, 2))
 
 if __name__ == "__main__":
    app.run()

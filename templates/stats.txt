@@ -15,7 +15,7 @@
     <div>
         <h2>{{video.title}}</h2> 
         <img src={{video.bigthumb}}><br> 
-        <p>It"s rated {{video.rating, 2}} out of ten</p><br>
+        <p>It's rated {{rating}} out of five</p><br>
         <p>{{video.viewcount}} views</p><br> 
         <p>{{video.likes}} likes</p><br> 
         <p>{{video.dislikes}} dislikes</p><br>
