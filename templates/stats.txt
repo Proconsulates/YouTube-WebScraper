@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube WebScraper</title>
+    <link rel="stylesheet" type="text/css" href="static/main.css"/>
 </head>
 
 <body>
@@ -15,10 +16,10 @@
     <div>
         <h2>{{video.title}}</h2> 
         <img src={{video.bigthumb}}><br> 
-        <p>It's rated {{rating}} out of five</p><br>
-        <p>{{video.viewcount}} views</p><br> 
-        <p>{{video.likes}} likes</p><br> 
-        <p>{{video.dislikes}} dislikes</p><br>
+        <p>It's rated {{rating}} out of five</p>
+        <p>{{video.viewcount}} views</p>
+        <p>{{video.likes}} likes</p>
+        <p>{{video.dislikes}} dislikes</p>
     </div>
 </body>
 
