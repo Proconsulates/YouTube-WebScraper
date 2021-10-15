@@ -1,3 +1,42 @@
+:root {
+    --purple: #6c43c7;
+}
+
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--purple);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body input {
+    font-size: 1.5rem;
+    margin-top: .8rem;
+    border-radius: 6px;
+    border: none;
+    padding: .4rem .8rem;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div > *:first-of-type {
+    margin-top: 2rem;
+}
+
+img {
+    border-radius: 12px;
+    width: 350px;
 }

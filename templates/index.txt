@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/main.css"/>
     <title>Youtube WebScraper</title>
 </head>
 <body>
+    <h1>YouTube WebScraper</h1>
     <form method="POST">
-        <input name="text" type="text">
+        <input name="text" type="text" placeholder="Enter Video URL..." />
     </form>
 </body>
 </html>
