@@ -10,7 +10,10 @@ def home():
 @app.route('/', methods=['POST'])
 def form():
    url = request.form['text']
-   v = pafy.new(url)
+   try:
+      v = pafy.new(url)
+   except Exception as e:
+      return "<h1>Video not found</h1><a href='/'>Back Home</a>"
 
    return render_template('stats.txt', video=v, rating=round(v.rating, 2))
 
