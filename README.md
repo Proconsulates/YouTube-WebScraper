@@ -14,6 +14,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Socials
 > [@Proconsulates CodePen](https://codepen.io/proconsulates/)<br/>
-> [@Proconsulates Github](https://github.com/Lucas-02/)<br/>
-> [Join our Discord Server](https://discord.st/Legit-Programming)<br/>
+> [@Proconsulates Github](https://github.com/Proconsulates/)<br/>
+> [Join our Discord Server](https://discord.st/Legit_Programming)<br/>
 > [@Proconsulates#7263 Discord](https://discord.com/channels/@me)<br/>
